@@ -22,6 +22,9 @@ export default {
       },
       backgroundImage: {
         "hero": "url('/coffee-bg.svg')",
+      },
+      height: {
+        "halfScreen": "50vh",
       }
     },
   },

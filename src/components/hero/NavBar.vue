@@ -6,7 +6,7 @@ import { ShoppingCart } from 'lucide-vue-next';
 
 <template>
 
-    <header class="absolute z-10 w-screen bg-transparent">
+    <header class="absolute z-10 w-full bg-transparent">
 
         <nav class="flex flex-row items-center justify-between h-16 mx-48 text-white-25">
 
