@@ -6,7 +6,7 @@ import PopularCards from './PopularCards.vue';
 
 <template>
 
-    <div class="relative flex flex-col items-center w-full h-screen bg-orange-50 gap-y-9 font-poppins">
+    <div class="relative flex flex-col items-center w-full h-[625px] bg-orange-50 gap-y-9 font-poppins">
 
         <h2 class="mt-12 text-3xl font-semibold text-brown">
 
