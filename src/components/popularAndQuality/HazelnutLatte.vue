@@ -31,7 +31,7 @@ import { ShoppingCart, Star } from 'lucide-vue-next';
 
                     </span>
 
-                    <img class="rounded-xl" src="/hazelnutLatte.png" alt="Hazelnut Latte">
+                    <img class="rounded-xl" src="/hazelnut-latte.png" alt="Hazelnut Latte">
 
 
                     <figcaption class="flex flex-col justify-between gap-4 my-5 text-2xl font-semibold">
