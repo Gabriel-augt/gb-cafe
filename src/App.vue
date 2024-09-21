@@ -2,8 +2,9 @@
 
 import { RouterLink, RouterView } from 'vue-router'
 import Hero from './components/hero/Hero.vue'
-import Popu from './components/hero/Hero.vue'
 import PopularNowAndQuality from './components/popularAndQuality/PopularNowAndQuality.vue';
+import AmazingDaybanner from './components/amazingDayBanner/AmazingDaybanner.vue';
+
 </script>
 
 <template>
@@ -11,5 +12,7 @@ import PopularNowAndQuality from './components/popularAndQuality/PopularNowAndQu
   <Hero />
 
   <PopularNowAndQuality />
+
+  <AmazingDaybanner />
 
 </template>
