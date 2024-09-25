@@ -6,6 +6,7 @@ import PopularNowAndQuality from './components/popularAndQuality/PopularNowAndQu
 import AmazingDaybanner from './components/amazingDayBanner/AmazingDaybanner.vue';
 import CoffeeMenu from './components/coffeeMenu/coffeeMenu.vue';
 import About from './components/about/About.vue';
+import Feedback from './components/feedback/Feedback.vue';
 
 </script>
 
@@ -20,5 +21,7 @@ import About from './components/about/About.vue';
   <CoffeeMenu />
 
   <About />
+
+  <Feedback />
 
 </template>
