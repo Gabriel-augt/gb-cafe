@@ -24,6 +24,7 @@ export default {
         "hero": "url('/coffee-bg.svg')",
         "coffeeBlastL": "url('/coffee-blast-l.svg')",
         "coffeeBannerBg": "url('/coffee-banner-bg.svg')",
+        "subscribeBg": "url('/subscribe-bg.svg')",
       },
       height: {
         "halfScreen": "50vh",

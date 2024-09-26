@@ -7,6 +7,7 @@ import AmazingDaybanner from './components/amazingDayBanner/AmazingDaybanner.vue
 import CoffeeMenu from './components/coffeeMenu/coffeeMenu.vue';
 import About from './components/about/About.vue';
 import Feedback from './components/feedback/Feedback.vue';
+import Subscribe from './components/subscribe/Subscribe.vue';
 
 </script>
 
@@ -23,5 +24,7 @@ import Feedback from './components/feedback/Feedback.vue';
   <About />
 
   <Feedback />
+
+  <Subscribe />
 
 </template>
