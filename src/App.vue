@@ -8,6 +8,8 @@ import CoffeeMenu from './components/coffeeMenu/coffeeMenu.vue';
 import About from './components/about/About.vue';
 import Feedback from './components/feedback/Feedback.vue';
 import Subscribe from './components/subscribe/Subscribe.vue';
+import Footer from './components/footer/Footer.vue';
+
 
 </script>
 
@@ -26,5 +28,7 @@ import Subscribe from './components/subscribe/Subscribe.vue';
   <Feedback />
 
   <Subscribe />
+
+  <Footer />
 
 </template>
