@@ -7,7 +7,7 @@ import SubscribeButton from './SubscribeButton.vue';
 
 <template>
 
-    <div class="bg-orange-50 h-[568px] flex items-center justify-center font-poppins">
+    <div class="bg-orange-50 pt-24 flex items-center justify-center font-poppins">
 
         <div class="w-full bg-center bg-no-repeat bg-cover h-96 bg-subscribeBg">
 

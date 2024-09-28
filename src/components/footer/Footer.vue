@@ -1,72 +1,27 @@
 <script setup>
 
-import { Facebook, Instagram, Twitter, Youtube } from 'lucide-vue-next';
+import Credits from './Credits.vue';
+import SocialNetworks from './SocialNetworks.vue';
+import ContactUs from './ContactUs.vue';
+import Notice from './Notice.vue';
 
 </script>
 
 <template>
 
-    <div class="w-full h-halfScreen">
+    <div class="w-full bg-center bg-cover h-max bg-footerBg">
 
-        <section class="flex flex-row items-center justify-around w-full h-full text-white bg-brown/80">
+        <section class="flex flex-row items-start justify-around w-full h-full py-12 text-white bg-brown/95">
 
-            <div class="flex flex-col gap-6">
+            <SocialNetworks />
 
-                <h2 class="text-3xl select-none font-poppins">
+            <ContactUs />
 
-                    Siga nossas redes sociais
-
-                </h2>
-
-                <figure class="flex flex-row gap-4">
-
-                    <Facebook size="36" stroke-width="1" />
-
-                    <Instagram size="36" stroke-width="1" />
-
-                    <Twitter size="36" stroke-width="1" />
-
-                    <Youtube size="36" stroke-width="1" />
-
-                </figure>
-
-            </div>
-
-            <div class="flex flex-col gap-3">
-
-                <h3 class="text-3xl select-none font-poppins">
-
-                    Contate-nos
-
-                </h3>
-
-                <span>street</span>
-                <span>+9 999-999</span>
-                <span>email@email.com</span>
-                <span>www.gb.com</span>
-
-            </div>
-            
-            <div class="flex flex-col gap-3">
-
-                <h1 class="text-5xl select-none font-clickerScript">
-
-                    GB Café
-
-                </h1>
-
-                <p class="tracking-wide w-96">
-
-                    Esta cafeteria é um projeto conceitual criado para fins de estudo,
-                    com o objetivo de explorar o design, marca e experiência do cliente.
-                    Não está em operação real, servindo apenas como exercício criativo e
-                    desenvolvimento de habilidades na área de design e negócios.
-
-                </p>
-
-            </div>
+            <Notice />
 
         </section>
+
+        <Credits />
 
     </div>
 
