@@ -1,18 +1,20 @@
 <template>
 
-    <div class="w-fulll h-[730px] bg-coffeeBannerBg bg-no-repeat bg-cover text-left font-poppins">
+    <div class="w-fulll h-max bg-coffeeBannerBg bg-no-repeat bg-cover bg-right text-left font-poppins py-12">
 
-        <div class="flex flex-row items-center justify-between bg-[#603809]/70">
+        <div class="flex flex-row items-center justify-around max-[970px]:flex-col max-[970px]:gap-32">
 
-            <section class="space-y-8 translate-x-32 text-white-25 w-[490px] tracking-wide">
+            <section class="space-y-8 text-white-25 w-[490px] tracking-wide ml-4 max-[970px]:space-y-6
+            max-[970px]:backdrop-blur max-[970px]:rounded-xl max-[970px]:p-1 max-[580px]:ml-0
+            max-[580px]:w-[350px]">
 
-                <h1 class="text-5xl font-medium">
+                <h1 class="text-5xl font-medium max-[580px]:text-3xl">
 
                     Tenha a chance de ter um Dia disposto
 
                 </h1>
 
-                <p class="text-xl font-light">
+                <p class="text-xl font-light max-[580px]:text-base">
 
                     Estamos lhe dando uma oportunidade única de experimentar uma vida melhor com café.
 
@@ -20,7 +22,8 @@
 
                 <button class="relative w-48 h-16 text-xl font-bold text-black
                 transition-all duration-300 ease-in-out transform shadow-lg top-8
-                bg-yellow-350 rounded-3xl font-poppins hover:scale-105">
+                bg-yellow-350 rounded-3xl font-poppins hover:scale-105 max-[580px]:w-40
+                max-[580px]:h-14 max-[970px]:top-0">
 
                     Peça o seu
 
@@ -29,11 +32,9 @@
             </section>
 
 
-            <figure class="flex justify-end h-[730px]">
+            <figure class="h-max">
 
-                <img src="/coffee-beans.png" alt="Grãos de Café">
-
-                <img class="absolute translate-y-24 -translate-x-96" src="/cup.svg" alt="Copo de café">
+                <img class="w-96 mr-40 max-[1090px]:w-80 max-[970px]:mr-0" src="/cup.svg" alt="Copo de café">
 
             </figure>
 

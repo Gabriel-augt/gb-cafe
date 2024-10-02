@@ -23,7 +23,7 @@ export default {
       backgroundImage: {
         "hero": "url('/coffee-bg.svg')",
         "coffeeBlastL": "url('/coffee-blast-l.svg')",
-        "coffeeBannerBg": "url('/coffee-banner-bg.svg')",
+        "coffeeBannerBg": "url('/coffee-banner-bg.png')",
         "subscribeBg": "url('/subscribe-bg.svg')",
         "footerBg": "url('/footer-bg.png')",
       },
