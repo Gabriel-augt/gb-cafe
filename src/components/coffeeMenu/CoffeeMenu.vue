@@ -16,7 +16,8 @@ import MenuLineTwo from './MenuLineTwo.vue';
 
         <CoffeeExplosionRightSide />
 
-        <section class="z-10 flex flex-col items-center justify-center w-full h-full gap-9">
+        <section class="z-10 flex flex-col items-center justify-center w-full h-full gap-9
+        max-[770px]:flex-col max-[1170px]:flex-row">
 
             <MenuLineOne />
 

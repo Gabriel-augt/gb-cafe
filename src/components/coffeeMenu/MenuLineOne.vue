@@ -8,7 +8,8 @@ import NutellaHot from './NutellaHot.vue';
 
 <template>
 
-    <div class="flex flex-row justify-between gap-9">
+    <div class="flex flex-row justify-between gap-9
+    max-[1170px]:flex-col max-[1170px]:justify-center">
 
         <Cappucino />
 
