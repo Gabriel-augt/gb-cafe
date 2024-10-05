@@ -8,7 +8,8 @@ import ThirdCard from './ThirdCard.vue';
 
 <template>
 
-    <div class="flex flex-row items-center justify-center w-full gap-8 py-14">
+    <div class="flex flex-row items-center justify-center w-full gap-8 py-12
+    px-4 flex-wrap max-[365px]:px-0">
 
         <FirstCard />
 

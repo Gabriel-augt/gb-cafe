@@ -1,16 +1,18 @@
 <template>
 
-    <div class="w-[416px] h-[496px] bg-white rounded-3xl border border-yellow-350/40 font-poppins">
+    <div class="w-max h-max bg-white rounded-3xl border
+    border-yellow-350/40 font-poppins max-[460px]:w-full">
 
         <figure class="m-4">
 
-            <img src="/quotation-marks.svg" alt="Aspas">
+            <img class="max-[899px]:w-16" src="/quotation-marks.svg" alt="Aspas">
 
         </figure>
 
-        <div class="flex flex-col items-center justify-center my-6">
+        <div class="flex flex-col items-center justify-center my-6 mx-12">
 
-            <p class="text-lg w-80 h-72">
+            <p class="text-lg w-80 h-72 max-[395px]:px-2 max-[460px]:text-base
+            max-[899px]:h-max">
 
                 A cafeteria é incrível! O ambiente é super aconchegante e perfeito tanto para relaxar quanto para
                 trabalhar.
