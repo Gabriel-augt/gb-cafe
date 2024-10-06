@@ -6,7 +6,7 @@ import { MapPin, PhoneCall, Mail, Globe } from 'lucide-vue-next';
 
 <template>
 
-    <div class="flex flex-col gap-3">
+    <div class="flex flex-col gap-3 w-96 max-[415px]:w-60">
 
         <h1 class="text-3xl font-poppins">
 

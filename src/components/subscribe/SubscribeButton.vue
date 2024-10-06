@@ -4,10 +4,12 @@
 
         <form @submit.prevent="" action="">
 
-            <input class="p-4 tracking-wide text-black rounded-l outline-none h-11 w-96"
+            <input class="p-4 tracking-wide text-black rounded-l outline-none h-11 w-96
+            max-[560px]:w-72 max-[415px]:w-60"
             type="email" name="email" id="email" placeholder="Digite seu e-mail">
 
-            <button class="font-semibold rounded-r w-36 h-11 bg-yellow-350 text-brown">
+            <button class="font-semibold rounded-r w-36 h-11 bg-yellow-350 text-brown
+            max-[560px]:w-28">
 
                 Enviar
 
