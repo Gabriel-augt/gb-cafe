@@ -9,7 +9,7 @@ import Notice from './Notice.vue';
 
 <template>
 
-    <div class="w-full bg-center bg-cover h-max bg-footerBg">
+    <div id="contato" class="w-full bg-center bg-cover h-max bg-footerBg">
 
         <section class="flex flex-row items-start justify-around w-full h-full py-12
         text-white bg-brown/95 max-[1180px]:flex-col max-[1180px]:items-center

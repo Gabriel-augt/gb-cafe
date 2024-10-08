@@ -8,7 +8,7 @@ import PopularCards from './PopularCards.vue';
 
     <div class="relative flex flex-col items-center w-full h-max bg-orange-50 gap-y-9 font-poppins">
 
-        <h2 class="mt-12 text-3xl font-semibold text-brown">
+        <h2 class="mt-16 text-3xl font-semibold text-brown">
 
             Popular
 

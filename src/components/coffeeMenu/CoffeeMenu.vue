@@ -10,7 +10,7 @@ import MenuLineTwo from './MenuLineTwo.vue';
 
 <template>
 
-    <div class="relative flex flex-col items-center w-full h-max gap-9 bg-orange-50">
+    <div id="menu" class="relative flex flex-col items-center w-full h-max gap-9 bg-orange-50">
 
         <MenuHeader />
 

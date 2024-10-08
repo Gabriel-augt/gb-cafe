@@ -2,7 +2,7 @@
 
     <div class="absolute z-10 flex flex-col justify-center w-max left-48 h-5/6 top-28
      text-white-25 max-[1660px]:left-28 max-[1575px]:left-8 max-[565px]:left-4
-     max-[565px]:w-96 max-[565px]:top-20">
+     max-[565px]:w-80 max-[565px]:top-20">
 
         <p class="font-light tracking-wider font-poppins max-[468px]:text-sm">
 

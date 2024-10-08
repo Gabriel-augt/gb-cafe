@@ -7,8 +7,12 @@ import Quality from './Quality.vue';
 
 <template>
 
-    <PopularNow />
+    <div id="popular">
 
-    <Quality />
+        <PopularNow />
+
+        <Quality />
+
+    </div>
 
 </template>

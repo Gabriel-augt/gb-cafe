@@ -1,6 +1,6 @@
 <template>
 
-    <h2 class="mt-12 text-3xl font-semibold text-brown">
+    <h2 class="mt-16 text-3xl font-semibold text-brown">
 
         Menu especial
 
