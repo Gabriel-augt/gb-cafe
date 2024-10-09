@@ -1,57 +1,39 @@
+<script setup>
+
+import { ShoppingCart } from 'lucide-vue-next';
+import DesktopNavBarContent from './DesktopNavBarContent.vue';
+
+</script>
+
 <template>
 
-    <ul class="flex space-x-16 text-xl font-poppins">
+    <header class="fixed z-50 w-screen bg-transparent mt-1 max-[420px]:mt-0">
 
-        <li class="cursor-pointer">
+        <nav class="flex flex-row items-center justify-between h-16 mx-48
+        text-white-25 backdrop-blur-3xl bg-black/30 rounded-full px-6
+        max-[1420px]:mx-28">
 
-            <a class="hover:text-yellow-350" href="#inicio">
+            <h2 class="text-4xl select-none font-clickerScript">
 
-                Início
+                GB Café
 
-            </a>
+            </h2>
 
-        </li>
+            <DesktopNavBarContent />
 
-        <li class="cursor-pointer">
+            <button>
 
-            <a class="hover:text-yellow-350" href="#popular">
+                <figure class="transition-all duration-300 ease-in-out transform
+                hover:scale-125">
 
-                Populares
+                    <ShoppingCart color="#FFF" />
 
-            </a>
+                </figure>
 
-        </li>
+            </button>
 
-        <li class="cursor-pointer">
+        </nav>
 
-            <a class="hover:text-yellow-350" href="#menu">
-
-                Menu
-
-            </a>
-
-        </li>
-
-        <li class="cursor-pointer">
-
-            <a class="hover:text-yellow-350" href="#sobre">
-
-                Sobre nós
-
-            </a>
-
-        </li>
-
-        <li class="cursor-pointer">
-
-            <a class="hover:text-yellow-350" href="#contato">
-
-                Contato
-
-            </a>
-
-        </li>
-
-    </ul>
+    </header>
 
 </template>
