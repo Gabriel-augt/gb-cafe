@@ -1,8 +1,8 @@
 <template>
 
-    <div class="flex flex-col items-center justify-center gap-4 text-center text-brown">
+    <div class="flex flex-col items-center justify-center gap-4 text-center">
 
-        <h1 class="text-4xl font-semibold mx-4 max-[460px]:text-3xl">
+        <h1 class="text-brown text-4xl font-semibold mx-4 max-[460px]:text-3xl">
 
             O que
 
@@ -16,7 +16,7 @@
 
         </h1>
 
-        <p class="text-lg mx-4 max-[623px]:text-base">
+        <p class="text-black text-lg mx-4 max-[623px]:text-base">
 
             Nossos clientes têm coisas incríveis a dizer sobre nossos cafés
 

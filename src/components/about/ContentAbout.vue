@@ -2,7 +2,7 @@
 
     <div class="z-10 mx-4">
 
-        <h1 class="mb-4 text-3xl font-semibold">
+        <h1 class="mb-4 text-brown text-3xl font-semibold">
 
             Sobre
 
@@ -14,7 +14,7 @@
 
         </h1>
 
-        <h2 class="mb-2 text-xl font-semibold max-[590px]:text-lg">
+        <h2 class="mb-2 text-black text-xl font-semibold max-[590px]:text-lg">
 
             Oferecemos café de qualidade e a pronta para entrega.
 

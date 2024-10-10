@@ -4,13 +4,13 @@
 
         <div class="mt-4 space-y-4 tracking-wide text-center font-poppin">
 
-            <h1 class="text-5xl font-bold text-brown max-[395px]:text-4xl">
+            <h1 class="text-4xl font-bold text-brown max-[395px]:text-4xl">
 
                 Por que somos diferentes?
 
             </h1>
 
-            <p class="text-xl font-light max-[395px]:text-lg">
+            <p class="text-xl font-light text-black max-[395px]:text-lg">
 
                 Não fazemos apenas o seu café, nós fazemos o seu dia!
 

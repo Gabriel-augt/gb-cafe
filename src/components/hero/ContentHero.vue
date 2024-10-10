@@ -31,7 +31,11 @@
         bg-yellow-350 rounded-3xl font-poppins hover:scale-105
         max-[650px]:w-40 max-[650px]:h-14">
 
-            Pedir Agora
+            <a href="#menu">
+
+                Pedir Agora
+
+            </a>
 
         </button>
 

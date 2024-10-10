@@ -25,7 +25,11 @@
                 bg-yellow-350 rounded-3xl font-poppins hover:scale-105 max-[580px]:w-40
                 max-[580px]:h-14 max-[970px]:top-0">
 
-                    Peça o seu
+                    <a href="#menu">
+
+                        Peça o seu
+
+                    </a>
 
                 </button>
 
