@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+import Cart from '../components/cart/Cart.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -9,9 +10,9 @@ const router = createRouter({
       //component:
     },
     {
-      path: "/about",
-      name: "about",
-      //component: () => import('')
+      path: "/carrinho",
+      name: "Carrinho",
+      component: Cart,
     },
   ],
 });

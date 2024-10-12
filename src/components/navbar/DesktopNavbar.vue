@@ -23,10 +23,14 @@ import DesktopNavBarContent from './DesktopNavBarContent.vue';
 
             <button>
 
-                <figure class="transition-all duration-300 ease-in-out transform
-                hover:scale-125">
+                <figure class="transition-all duration-300 ease-in-out
+                transform hover:scale-125">
 
-                    <ShoppingCart color="#FFF" />
+                    <router-link to="/carrinho">
+
+                        <ShoppingCart color="#FFF" />
+
+                    </router-link>
 
                 </figure>
 

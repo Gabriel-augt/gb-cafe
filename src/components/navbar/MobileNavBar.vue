@@ -44,8 +44,7 @@ const navBarClick = () => {
 
 <template>
 
-    <header class="fixed z-50 w-screen bg-transparent"
-    :class="marginTop">
+    <header class="fixed z-50 w-screen bg-transparent" :class="marginTop">
 
         <div class="flex items-center justify-center">
 
@@ -67,7 +66,11 @@ const navBarClick = () => {
 
                     <figure class="transition-all duration-300 ease-in-out transform hover:scale-125">
 
-                        <ShoppingCart color="#FFF" />
+                        <router-link to="/carrinho">
+
+                            <ShoppingCart color="#FFF" />
+
+                        </router-link>
 
                     </figure>
 
