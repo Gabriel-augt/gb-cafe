@@ -52,7 +52,8 @@ const navBarClick = () => {
             bg-black/30 px-6 max-[1420px]:mx-28 max-[1170px]:mx-0 transition-all
             duration-300" :class="justify, rounded, wSm, wMd">
 
-                <h2 v-if="navBarLogo" class="text-4xl select-none font-clickerScript max-[1170px]:text-2xl">
+                <h2 v-if="navBarLogo" class="text-4xl select-none font-clickerScript
+                max-[1170px]:text-2xl">
 
                     GB Café
 

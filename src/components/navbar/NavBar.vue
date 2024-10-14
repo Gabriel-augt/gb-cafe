@@ -11,5 +11,4 @@ import DesktopNavbar from './DesktopNavbar.vue';
 
     <MobileNavBar class="min-[1170px]:hidden" />
 
-
 </template>
