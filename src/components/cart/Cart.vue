@@ -1,14 +1,15 @@
-<script>
+<script setup>
+
+import CartContent from './CartContent.vue'
 
 </script>
 
 <template>
 
-    <div class="flex items-center justify-center
-    w-screen h-screen text-5xl text-brown">
+    <div class="w-screen h-screen bg-white-25">
 
-        Carrrinho...
-        
+        <CartContent />
+
     </div>
 
 </template>
