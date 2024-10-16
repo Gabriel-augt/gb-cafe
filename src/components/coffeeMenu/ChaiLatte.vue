@@ -1,6 +1,9 @@
 <script setup>
 
 import { ShoppingCart, Star } from 'lucide-vue-next';
+import { useCartStore } from '@/store/CartStore';
+
+const cart = useCartStore()
 
 </script>
 
@@ -35,13 +38,13 @@ import { ShoppingCart, Star } from 'lucide-vue-next';
 
                     <figcaption class="flex flex-col justify-between gap-4 my-5 text-2xl font-semibold">
 
-                        Chai latte
+                        Chai Latte
 
                         <div class="inline-flex justify-between font-bold">
 
                             R$14,00
 
-                            <button>
+                            <button @click.once="cart.addCoffee('chaiLatte')">
 
                                 <figure class="p-2 bg-orange-400 rounded-full hover:bg-yellow-350">
 
