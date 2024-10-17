@@ -5,6 +5,7 @@ import { ref } from 'vue';
 import MobileNavBarContent from './MobileNavBarContent.vue';
 import BurgerMenu from './BurgerMenu.vue';
 import CloseBurger from './CloseBurger.vue';
+import BackToHome from './backToHome.vue';
 
 const showMobileMenu = ref(false);
 const navBarLogo = ref(true);
@@ -14,6 +15,8 @@ const rounded = ref('rounded-full');
 const marginTop = ref('mt-1');
 const wSm = ref('max-[420px]:w-72');
 const wMd = ref('max-[1170px]:w-96');
+const hideMenuContent = ref(true);
+const url = ref(document.URL);
 
 const activeToggleMenu = () => {
 
@@ -26,7 +29,7 @@ const activeToggleMenu = () => {
     wSm.value = 'max-[420px]:w-screen';
     wMd.value = 'max-[1170px]:w-screen';
 
-}
+};
 
 const navBarClick = () => {
 
@@ -38,7 +41,29 @@ const navBarClick = () => {
     marginTop.value = 'mt-1';
     wSm.value = 'max-[420px]:w-72';
     wMd.value = 'max-[1170px]:w-96';
-}
+};
+
+const inCart = () => {
+
+    hideMenuContent.value = false;
+
+};
+
+const toHomePage = () => {
+
+    hideMenuContent.value = true;
+
+};
+
+if (url.value.includes('carrinho')) {
+
+    hideMenuContent.value = false;
+
+} else {
+
+    hideMenuContent.value = true;
+
+};
 
 </script>
 
@@ -52,18 +77,20 @@ const navBarClick = () => {
             bg-black/30 px-6 max-[1420px]:mx-28 max-[1170px]:mx-0 transition-all
             duration-300" :class="justify, rounded, wSm, wMd">
 
-                <h2 v-if="navBarLogo" class="text-4xl select-none font-clickerScript
+                <h2 v-if="navBarLogo" v-show="hideMenuContent" class="text-4xl select-none font-clickerScript
                 max-[1170px]:text-2xl">
 
                     GB Café
 
                 </h2>
 
-                <BurgerMenu v-if="!showMobileMenu" @click="activeToggleMenu" class="min-[1170px]:hidden" />
+                <BurgerMenu v-if="!showMobileMenu" v-show="hideMenuContent" @click="activeToggleMenu" class="min-[1170px]:hidden" />
+
+                <BackToHome @click="toHomePage" v-if="!hideMenuContent" />
 
                 <CloseBurger v-if="showMobileMenu" @click="navBarClick" />
 
-                <button v-if="navBarCart">
+                <button @click="inCart" v-if="navBarCart">
 
                     <figure class="transition-all duration-300 ease-in-out transform hover:scale-125">
 
