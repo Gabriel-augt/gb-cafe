@@ -92,11 +92,27 @@ export const useCartStore = defineStore("cart", {
   },
 
   actions: {
-    addCoffee(name) {
-      console.log(name);
-      this.cafesAdded.push(name);
-      console.log(this.cafesAdded);
+
+    addCoffee(coffee) {
+
+      this.listOfCafes.forEach((cafes) => {
+
+        if (Object.keys(cafes) == coffee) {
+
+          this.cafesAdded.push(cafes[coffee]);
+
+        }
+
+      });
+
     },
+
+    removeCoffee(index) {
+
+      this.cafesAdded.splice(index, 1);
+
+    },
+
   },
 
   getters: {},
