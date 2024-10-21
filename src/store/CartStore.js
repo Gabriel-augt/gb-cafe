@@ -88,6 +88,8 @@ export const useCartStore = defineStore("cart", {
       ],
 
       cafesAdded: [],
+
+      itemInCart: false,
     };
   },
 
@@ -105,11 +107,21 @@ export const useCartStore = defineStore("cart", {
 
       });
 
+      this.isEmpty()
+
     },
 
     removeCoffee(index) {
 
       this.cafesAdded.splice(index, 1);
+
+      this.isEmpty();
+
+    },
+
+    isEmpty () {
+
+      this.cafesAdded.length > 0 ? this.itemInCart = true : this.itemInCart = false;
 
     },
 

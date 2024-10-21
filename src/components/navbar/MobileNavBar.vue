@@ -6,6 +6,7 @@ import MobileNavBarContent from './MobileNavBarContent.vue';
 import BurgerMenu from './BurgerMenu.vue';
 import CloseBurger from './CloseBurger.vue';
 import BackToHome from './backToHome.vue';
+import { useCartStore } from '@/store/CartStore';
 
 const showMobileMenu = ref(false);
 const navBarLogo = ref(true);
@@ -17,6 +18,7 @@ const wSm = ref('max-[420px]:w-72');
 const wMd = ref('max-[1170px]:w-96');
 const hideMenuContent = ref(true);
 const url = ref(document.URL);
+const cart = useCartStore();
 
 const activeToggleMenu = () => {
 
@@ -103,6 +105,18 @@ if (url.value.includes('carrinho')) {
                     </figure>
 
                 </button>
+
+                <div v-if="cart.itemInCart" class="absolute right-5 top-5">
+
+                    <span class="relative flex items-center justify-center h-3 w-3">
+
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-350 opacity-75"></span>
+
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-yellow-350"></span>
+
+                    </span>
+
+                </div>
 
             </nav>
 
