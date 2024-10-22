@@ -9,12 +9,15 @@ const cart = useCartStore()
 
 <template>
 
-    <div v-for="(coffee, index) in cart.cafesAdded" :key="index"  class="flex flex-row items-center justify-between gap-16 px-8 py-4
-    shadow-md rounded-3xl border-t h-max w-[848px]">
+    <div v-for="(coffee, index) in cart.cafesAdded" :key="index"
+    class="flex flex-row items-center justify-between gap-16 px-8 py-4
+    shadow-md rounded-3xl border-t h-max w-[848px] max-[880px]:flex-col
+    max-[880px]:w-96 max-[880px]:gap-8 max-[450px]:w-72">
 
         <figure class="w-44">
 
-            <img class="rounded-xl" :src="coffee.photo" :alt="coffee.name">
+            <img class="rounded-xl max-[880px]:h-36 max-[880px]:w-full"
+            :src="coffee.photo" :alt="coffee.name">
 
         </figure>
 
@@ -34,27 +37,31 @@ const cart = useCartStore()
 
         </div>
 
-        <button>
+        <div class="flex flex-row gap-16">
 
-            <figure>
+            <button>
 
-                <Minus />
+                <figure>
 
-            </figure>
+                    <Minus />
 
-        </button>
+                </figure>
 
-        1
+            </button>
 
-        <button>
+            1
 
-            <figure>
+            <button>
 
-                <Plus />
+                <figure>
+                    
+                    <Plus />
+                    
+                </figure>
 
-            </figure>
+            </button>
 
-        </button>
+        </div>
 
         <figure @click="cart.removeCoffee(index)" class="cursor-pointer">
 

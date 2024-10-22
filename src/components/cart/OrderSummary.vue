@@ -1,9 +1,10 @@
 <template>
 
     <section class="flex flex-col items-center mb-8
-        justify-center w-screen h-56 bg-white-25">
+    justify-center w-screen h-56 bg-white-25">
 
-        <div class="w-96 h-max border rounded-3xl p-8">
+        <div class="w-96 h-max border rounded-3xl p-8
+        max-[450px]:w-72">
 
             <h3 class="text-lg font-semibold pb-2">
 
