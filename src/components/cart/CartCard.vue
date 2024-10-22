@@ -16,7 +16,7 @@ const cart = useCartStore()
 
         <figure class="w-44">
 
-            <img class="rounded-xl max-[880px]:h-36 max-[880px]:w-full"
+            <img class="rounded-xl"
             :src="coffee.photo" :alt="coffee.name">
 
         </figure>
