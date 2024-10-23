@@ -11,6 +11,7 @@ export const useCartStore = defineStore("cart", {
             priceBRL: "15,00",
             priceUSD: "2,65",
             priceEUR: "2,44",
+            amount: 1,
           },
         },
         {
@@ -20,6 +21,7 @@ export const useCartStore = defineStore("cart", {
             priceBRL: "12,00",
             priceUSD: "2,12",
             priceEUR: "1,95",
+            amount: 1,
           },
         },
         {
@@ -29,6 +31,7 @@ export const useCartStore = defineStore("cart", {
             priceBRL: "18,00",
             priceUSD: "3,18",
             priceEUR: "2,92",
+            amount: 1,
           },
         },
         {
@@ -38,6 +41,7 @@ export const useCartStore = defineStore("cart", {
             priceBRL: "12,00",
             priceUSD: "2,12",
             priceEUR: "1,95",
+            amount: 1,
           },
         },
         {
@@ -47,6 +51,7 @@ export const useCartStore = defineStore("cart", {
             priceBRL: "15,00",
             priceUSD: "2,65",
             priceEUR: "2,44",
+            amount: 1,
           },
         },
         {
@@ -56,6 +61,7 @@ export const useCartStore = defineStore("cart", {
             priceBRL: "18,00",
             priceUSD: "3,18",
             priceEUR: "2,92",
+            amount: 1,
           },
         },
         {
@@ -65,6 +71,7 @@ export const useCartStore = defineStore("cart", {
             priceBRL: "10,00",
             priceUSD: "1,77",
             priceEUR: "1,62",
+            amount: 1,
           },
         },
         {
@@ -74,6 +81,7 @@ export const useCartStore = defineStore("cart", {
             priceBRL: "12,00",
             priceUSD: "2,12",
             priceEUR: "1,95",
+            amount: 1,
           },
         },
         {
@@ -83,6 +91,7 @@ export const useCartStore = defineStore("cart", {
             priceBRL: "14,00",
             priceUSD: "2,48",
             priceEUR: "2,27",
+            amount: 1,
           },
         },
       ],
@@ -90,6 +99,8 @@ export const useCartStore = defineStore("cart", {
       cafesAdded: [],
 
       itemInCart: false,
+
+      totalValueCoffee: 0,
     };
   },
 
@@ -122,6 +133,26 @@ export const useCartStore = defineStore("cart", {
     isEmpty () {
 
       this.cafesAdded.length > 0 ? this.itemInCart = true : this.itemInCart = false;
+
+    },
+
+    increment (coffee) {
+
+      coffee.amount++
+
+    },
+
+    decrement (coffee, index) {
+      
+      if (coffee.amount <= 1) {
+
+        this.removeCoffee(index);
+
+      } else {
+
+        coffee.amount--;
+
+      }
 
     },
 

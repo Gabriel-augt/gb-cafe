@@ -23,7 +23,7 @@ const cart = useCartStore()
 
         <div class="flex flex-col gap-2">
 
-            <h2 class="text-2xl font-semibold tracking-wide text-nowrap">
+            <h2 class="text-2xl font-semibold tracking-wide text-nowrap w-52">
 
                 {{ coffee.name }}
 
@@ -39,7 +39,7 @@ const cart = useCartStore()
 
         <div class="flex flex-row gap-16">
 
-            <button>
+            <button @click="cart.decrement(coffee, index)">
 
                 <figure>
 
@@ -49,9 +49,9 @@ const cart = useCartStore()
 
             </button>
 
-            1
+            {{ coffee.amount }}
 
-            <button>
+            <button @click="cart.increment(coffee)">
 
                 <figure>
                     
