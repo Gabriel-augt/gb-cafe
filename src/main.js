@@ -6,6 +6,7 @@ import { createI18n } from "vue-i18n";
 
 import { pt_BR } from "./locales/pt_BR";
 import { en } from "./locales/en";
+import { eu } from "./locales/eu";
 import { es } from "./locales/es";
 
 import App from "./App.vue";
@@ -14,6 +15,7 @@ import router from "./router";
 const languages = {
   pt_BR,
   en,
+  eu,
   es,
 };
 

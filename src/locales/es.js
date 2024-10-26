@@ -1,5 +1,5 @@
 export const es = {
-  country: "España",
+  local: "España",
   home: "Inicio",
   popular: "Popular",
   menu: "Menú",

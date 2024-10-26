@@ -1,5 +1,5 @@
 export const pt_BR = {
-  country: "Brasil",
+  local: "Brasil",
   home: "Início",
   popular: "Populares",
   menu: "Menu",
