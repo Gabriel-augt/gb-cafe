@@ -6,7 +6,7 @@
 
             <a class="hover:text-yellow-350" href="#inicio">
 
-                Início
+                {{ $t('home') }}
 
             </a>
 
@@ -16,7 +16,7 @@
 
             <a class="hover:text-yellow-350" href="#popular">
 
-                Populares
+                {{ $t('popular') }}
 
             </a>
 
@@ -26,7 +26,7 @@
 
             <a class="hover:text-yellow-350" href="#menu">
 
-                Menu
+                {{ $t('menu') }}
 
             </a>
 
@@ -36,7 +36,7 @@
 
             <a class="hover:text-yellow-350" href="#sobre">
 
-                Sobre nós
+                {{ $t('aboutUs') }}
 
             </a>
 
@@ -46,7 +46,7 @@
 
             <a class="hover:text-yellow-350" href="#contato">
 
-                Contato
+                {{ $t('contact') }}
 
             </a>
 
