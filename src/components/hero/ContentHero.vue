@@ -6,7 +6,7 @@
 
         <p class="font-light tracking-wider font-poppins max-[468px]:text-sm">
 
-            Melhore seu humor com uma xícara de
+            {{ $t('improveYourMood') }}
 
         </p>
 
@@ -14,15 +14,15 @@
         max-[650px]:-my-8 max-[650px]:text-[300px] max-[565px]:text-[200px]
         max-[395px]:text-[195px]">
 
-            Café
+            {{ $t('coffee') }}
 
         </h1>
 
         <p class="font-light tracking-wider font-poppins
         max-[468px]:w-96 max-[565px]:text-sm max-[395px]:w-[350px]">
 
-            Descubra os melhores sabores de café que você já tomou. <br>
-            Nós fornecemos o melhor para nossos clientes.
+            {{ $t('discoverTheBestFlavors') }} <br>
+            {{ $t('weProvideTheBest') }}
 
         </p>
 
@@ -33,7 +33,7 @@
 
             <a href="#menu">
 
-                Pedir Agora
+                {{ $t('orderNow') }}
 
             </a>
 
