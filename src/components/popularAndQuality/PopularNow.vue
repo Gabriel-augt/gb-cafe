@@ -10,11 +10,11 @@ import PopularCards from './PopularCards.vue';
 
         <h2 class="mt-16 text-3xl font-semibold text-brown">
 
-            Popular
+            {{ $t('popular') }}
 
             <span class="underline decoration-yellow-350">
                 
-                agora
+                {{ $t('now') }}
             
             </span>
             

@@ -6,13 +6,13 @@
 
             <h1 class="text-4xl font-bold text-brown max-[395px]:text-4xl">
 
-                Por que somos diferentes?
+                {{ $t('weAreDifferent') }}
 
             </h1>
 
             <p class="text-xl font-light text-black max-[395px]:text-lg">
 
-                Não fazemos apenas o seu café, nós fazemos o seu dia!
+                {{ $t('weMakeYourDay') }}
 
             </p>
 
@@ -32,13 +32,13 @@
 
                 <p class="mb-2 text-xl font-bold font-poppins">
 
-                    Grão Incomparável
+                    {{ $t('incomparableGrain') }}
 
                 </p>
 
                 <p class="text-lg font-poppins text-zinc-400 text-center">
 
-                    Grãos que fornece um ótimo sabor
+                    {{ $t('greatTastingGrains') }}
 
                 </p>
 
@@ -55,13 +55,13 @@
 
                 <p class="mb-2 text-xl font-bold font-poppins">
 
-                    Alta Qualidade
+                    {{ $t('highQuality') }}
 
                 </p>
 
                 <p class="text-lg font-poppins text-zinc-400 text-center">
 
-                    Nós fornecemos a mais alta qualidade
+                    {{ $t('greatTastingGrains') }}
 
                 </p>
 
@@ -78,13 +78,13 @@
 
                 <p class="mb-2 text-xl font-bold font-poppins">
 
-                    Extraordinário
+                    {{ $t('extraordinary') }}
 
                 </p>
 
                 <p class="text-lg font-poppins text-zinc-400 text-center">
 
-                    Café como você nunca provou
+                    {{ $t('neverTasted') }}
 
                 </p>
 
@@ -101,13 +101,13 @@
 
                 <p class="mb-2 text-xl font-bold font-poppins">
 
-                    Preço acessível
+                    {{ $t('affordablePrice') }}
 
                 </p>
 
-                <p class="text-lg font-poppins text-zinc-400 text-center">
+                <p class="text-lg font-poppins text-zinc-400 text-center px-1">
 
-                    Nossos preços de café são acessíveis
+                    {{ $t('coffeeAreAffordable') }}
 
                 </p>
 

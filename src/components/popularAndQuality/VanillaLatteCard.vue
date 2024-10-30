@@ -39,11 +39,11 @@ const cart = useCartStore()
 
                     <figcaption class="flex flex-col justify-between gap-4 my-5 text-2xl font-semibold">
 
-                        Vanilla Latte
+                        {{ $t('vanillaLatte') }}
 
                         <div class="inline-flex justify-between font-bold">
 
-                            R$15,00
+                            {{ $t('vanillaLattePrice') }}
 
                             <button @click.once="cart.addCoffee('vanillaLatte')">
 
