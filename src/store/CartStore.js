@@ -100,6 +100,8 @@ export const useCartStore = defineStore("cart", {
 
       itemInCart: false,
 
+      hideLangSwitcher: false,
+
       totalValueCoffee: 0,
     };
   },
@@ -113,7 +115,7 @@ export const useCartStore = defineStore("cart", {
         if (Object.keys(cafes) == coffee) {
 
           this.cafesAdded.push(cafes[coffee]);
-
+          //console.log(cafes[coffee].priceBRL)
         }
 
       });

@@ -10,4 +10,5 @@ export const eu = {
   discoverTheBestFlavors: "Discover the best coffee flavors you've ever had.",
   weProvideTheBest: "We provide the best for our customers.",
   orderNow: "Order Now",
+  popularNow: "Popular now"
 };

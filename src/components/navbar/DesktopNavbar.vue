@@ -13,22 +13,26 @@ const cart = useCartStore();
 const inCart = () => {
 
     hideMenuContent.value = false;
+    cart.hideLangSwitcher = true;
 
 };
 
 const toHomePage = () => {
 
     hideMenuContent.value = true;
+    cart.hideLangSwitcher = false;
 
 };
 
 if (url.value.includes('carrinho')) {
 
     hideMenuContent.value = false;
+    cart.hideLangSwitcher = true;
 
 } else {
 
     hideMenuContent.value = true;
+    cart.hideLangSwitcher = false;
 
 };
 

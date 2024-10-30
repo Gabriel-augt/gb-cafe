@@ -30,6 +30,7 @@ const activeToggleMenu = () => {
     marginTop.value = 'mt-0';
     wSm.value = 'max-[420px]:w-screen';
     wMd.value = 'max-[1170px]:w-screen';
+    cart.hideLangSwitcher = true;
 
 };
 
@@ -43,27 +44,33 @@ const navBarClick = () => {
     marginTop.value = 'mt-1';
     wSm.value = 'max-[420px]:w-72';
     wMd.value = 'max-[1170px]:w-96';
+    cart.hideLangSwitcher = false;
+
 };
 
 const inCart = () => {
 
     hideMenuContent.value = false;
+    cart.hideLangSwitcher = true;
 
 };
 
 const toHomePage = () => {
 
     hideMenuContent.value = true;
+    cart.hideLangSwitcher = false;
 
 };
 
 if (url.value.includes('carrinho')) {
 
     hideMenuContent.value = false;
+    cart.hideLangSwitcher = true;
 
 } else {
 
     hideMenuContent.value = true;
+    cart.hideLangSwitcher = false;
 
 };
 

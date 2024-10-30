@@ -10,4 +10,5 @@ export const es = {
   discoverTheBestFlavors: "Descubre los mejores sabores de café que jamás hayas probado.",
   weProvideTheBest: "Proporcionamos lo mejor a nuestros clientes.",
   orderNow: "Ordenar ahora",
+  popularNow: "Popular ahora"
 };
