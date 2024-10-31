@@ -28,4 +28,6 @@ export const pt_BR = {
   neverTasted: "Café como você nunca provou",
   affordablePrice: "Preço Acessível",
   coffeeAreAffordable: "Nossos preços de café são acessíveis",
+  willingDay: "Tenha a chance de ter um Dia disposto",
+  lifeWithCoffee: "Estamos lhe dando uma oportunidade única de experimentar uma vida melhor com café.",
 };

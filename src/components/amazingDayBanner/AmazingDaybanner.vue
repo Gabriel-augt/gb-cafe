@@ -10,13 +10,13 @@
 
                 <h1 class="text-5xl font-medium max-[580px]:text-3xl">
 
-                    Tenha a chance de ter um Dia disposto
+                    {{ $t('willingDay') }}
 
                 </h1>
 
                 <p class="text-xl font-light max-[580px]:text-base">
 
-                    Estamos lhe dando uma oportunidade única de experimentar uma vida melhor com café.
+                    {{ $t('lifeWithCoffee') }}
 
                 </p>
 
@@ -27,7 +27,7 @@
 
                     <a href="#menu">
 
-                        Peça o seu
+                        {{ $t('orderNow') }}
 
                     </a>
 

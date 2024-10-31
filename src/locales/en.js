@@ -28,4 +28,6 @@ export const en = {
   neverTasted: "Coffee like you've never tasted",
   affordablePrice: "Affordable Price",
   coffeeAreAffordable: "Our coffee prices are affordable",
+  willingDay: "Have the chance to have a willing Day",
+  lifeWithCoffee: "We are giving you a unique opportunity to experience a better life with coffee.",
 };
