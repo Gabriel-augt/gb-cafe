@@ -33,16 +33,16 @@ const cart = useCartStore()
 
                     </span>
 
-                    <img class="rounded-xl" src="/macchiato.png" alt="Macchiato">
+                    <img class="rounded-xl" src="/macchiato.png" :alt="$t('macchiato')">
 
 
                     <figcaption class="flex flex-col justify-between gap-4 my-5 text-2xl font-semibold">
 
-                        Macchiato
+                        {{ $t('macchiato') }}
 
                         <div class="inline-flex justify-between font-bold">
 
-                            R$10,00
+                            {{ $t('macchiatoPrice') }}
 
                             <button @click.once="cart.addCoffee('macchiato')">
 

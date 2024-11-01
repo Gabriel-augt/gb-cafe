@@ -2,11 +2,11 @@
 
     <h2 class="mt-16 text-3xl font-semibold text-brown">
 
-        Menu especial
+        {{ $t('specialMenu') }}
 
         <span class="underline decoration-yellow-350">
 
-            para você
+            {{ $t('forYou') }}
 
         </span>
 
