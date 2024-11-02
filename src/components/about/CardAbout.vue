@@ -10,7 +10,7 @@
                 <figure class="m-1">
 
                     <img class="rounded-xl w-[478px] h-[278px] max-[500px]:w-screen"
-                    src="/coffee-shop.png"alt="Cafeteria">
+                    src="/coffee-shop.png" :alt="$t('coffeeShop')">
 
                 </figure>
 

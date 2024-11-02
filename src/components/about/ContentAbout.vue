@@ -4,11 +4,11 @@
 
         <h1 class="mb-4 text-brown text-3xl font-semibold">
 
-            Sobre
+            {{ $t('about') }}
 
             <span class="underline decoration-yellow-350">
 
-                nós
+                {{ $t('us') }}
 
             </span>
 
@@ -16,16 +16,14 @@
 
         <h2 class="mb-2 text-black text-xl font-semibold max-[590px]:text-lg">
 
-            Oferecemos café de qualidade e a pronta para entrega.
+            {{ $t('qualityAndReadyForDelivery') }}
 
         </h2>
 
         <p class="w-[568px] leading-relaxed tracking-wide text-gray-600
         max-[590px]:w-auto">
 
-            Somos uma empresa que produz e distribui bebidas deliciosas.
-            Nosso principal produto é feito com uma receita
-            secreta e está disponível em lojas no mundo todo.
+            {{ $t('aboutContent') }}
 
         </p>
 

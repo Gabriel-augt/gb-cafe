@@ -44,4 +44,10 @@ export const pt_BR = {
   mocaccinoPrice: "R$12,00",
   chaiLatte: "Chai Latte",
   chaiLattePrice: "R$14,00",
+  about: "Sobre",
+  us: "nós",
+  qualityAndReadyForDelivery: "Oferecemos café de qualidade e a pronta para entrega.",
+  aboutContent: `Somos uma empresa que produz e distribui bebidas deliciosas. 
+  Nosso principal produto é feito com uma receita secreta e está disponível em lojas no mundo todo.`,
+  coffeeShop: "Cafeteria",
 };
