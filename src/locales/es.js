@@ -50,4 +50,17 @@ export const es = {
   aboutContent: `Somos una empresa que produce y distribuye bebidas deliciosas.
   Nuestro producto estrella se elabora siguiendo una receta secreta y está disponible en tiendas de todo el mundo.`,
   coffeeShop: "Cafetería",
+  what: "Lo que",
+  say: "dicen",
+  customersHaveThingsToSay: "Nuestros clientes tienen cosas increíbles que decir sobre nuestros cafés",
+  feedbackOne: `¡La cafetería es increíble! El ambiente es súper acogedor y perfecto tanto para relajarse como para trabajar. 
+  El café es siempre fresco, con un sabor excepcional. 
+  El servicio es atento y rápido, lo que hace la experiencia aún más placentera. 
+  ¡Definitivamente regresaré más a menudo!`,
+  feedbackTwo:`¡Me encantó la experiencia! El café es muy bueno y el ambiente agradable, 
+  pero el espacio podría ser un poco más grande para dar cabida a más gente en las horas punta. 
+  En general, es una gran opción para los que buscan calidad tanto en el café como en el servicio.`,
+  feedbackThree:`¡Simplemente maravilloso! Los baristas son muy profesionales y saben preparar un delicioso café. 
+  Además, la carta ofrece una gran variedad de aperitivos y postres para acompañar el café. 
+  El local es limpio, moderno y tiene una gran energía. ¡Lo recomiendo a cualquiera que disfrute de una buena taza de café!`,
 };

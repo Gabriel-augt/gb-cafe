@@ -14,11 +14,7 @@
             <p class="text-lg w-80 h-72 max-[395px]:px-2 max-[460px]:text-base
             max-[899px]:h-max">
 
-                A cafeteria é incrível! O ambiente é super aconchegante e perfeito tanto para relaxar quanto para
-                trabalhar.
-                O café é sempre fresquinho, com um sabor excepcional. O atendimento é atencioso e rápido, o que torna a
-                experiência ainda mais agradável.
-                Com certeza voltarei mais vezes!
+                {{ $t('feedbackOne') }}
 
             </p>
 

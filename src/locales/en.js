@@ -50,4 +50,17 @@ export const en = {
   aboutContent: `We are a company that produces and distributes delicious drinks. 
   Our flagship product is made to a secret recipe and is available in stores all over the world.`,
   coffeeShop: "Coffee shop",
+  what: "What they",
+  say: "say",
+  customersHaveThingsToSay: "Our customers have amazing things to say about our coffees",
+  feedbackOne: `The coffee shop is amazing! The atmosphere is super cozy and perfect for both relaxing and working. 
+  The coffee is always fresh and has an exceptional flavor. 
+  The coffee shop is amazing! The atmosphere is super cozy and perfect for both relaxing and working. 
+  I will definitely be back!`,
+  feedbackTwo:`I adored the experience! The coffee is very hot and the atmosphere is pleasant, 
+  but the space could be a little bigger to accommodate more people during peak hours. 
+  In general, it is the best option for those looking for quality both in coffee and in service!`,
+  feedbackThree:`Simply wonderful! The baristas are very professional and know how to prepare delicious coffee. 
+  In addition, the menu offers a variety of snack and dessert options to accompany the coffee. 
+  The place is clean, modern and has a great vibe. I recommend it to everyone who enjoys good coffee!`,
 };

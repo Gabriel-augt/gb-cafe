@@ -14,9 +14,7 @@
             <p class="text-lg w-80 h-72 max-[395px]:px-2 max-[460px]:text-base
             max-[899px]:h-max">
 
-                Adorei a experiência! O café é muito bom e o ambiente é agradável,
-                mas o espaço poderia ser um pouco maior para acomodar mais pessoas em horários de pico.
-                No geral, é uma ótima opção para quem busca qualidade tanto no café quanto no atendimento!
+                {{ $t('feedbackTwo') }}
 
             </p>
 

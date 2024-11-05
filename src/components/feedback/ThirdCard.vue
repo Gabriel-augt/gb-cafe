@@ -14,9 +14,7 @@
             <p class="text-lg w-80 h-72 max-[395px]:px-2 max-[460px]:text-base
             max-[899px]:h-max">
 
-                Simplesmente maravilhoso! Os baristas são muito profissionais e sabem preparar um café delicioso.
-                Além disso, o cardápio oferece uma variedade de opções de lanches e sobremesas para acompanhar o café.
-                O local é limpo, moderno e com uma ótima energia. Recomendo para todos que apreciam um bom café!
+                {{ $t('feedbackThree') }}
 
             </p>
 

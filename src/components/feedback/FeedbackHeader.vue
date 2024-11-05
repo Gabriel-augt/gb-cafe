@@ -4,21 +4,22 @@
 
         <h1 class="text-brown text-4xl font-semibold mx-4 max-[460px]:text-3xl">
 
-            O que
+            {{ $t('what') }}
 
             <span class="underline decoration-yellow-350">
 
-                dizem
+                {{ $t('say') }}
 
             </span>
 
-            sobre nós
+            {{ $t('about') }}
+            {{ $t('us') }}
 
         </h1>
 
         <p class="text-black text-lg mx-4 max-[623px]:text-base">
 
-            Nossos clientes têm coisas incríveis a dizer sobre nossos cafés
+            {{ $t('customersHaveThingsToSay') }}
 
         </p>
 
