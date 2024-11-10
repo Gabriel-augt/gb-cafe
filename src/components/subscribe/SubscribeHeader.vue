@@ -4,13 +4,13 @@
 
         <h1 class="text-5xl max-[980px]:text-4xl max-[740px]:text-3xl">
 
-            Assine para receber as últimas notícias
+            {{ $t('latestNews') }}
 
         </h1>
 
         <p class="text-lg font-extralight max-[740px]:text-base">
 
-            Não perca nossas últimas notícias, atualizações, dicas e ofertas especiais
+            {{ $t('newsUpdatesTipsOffers') }}
 
         </p>
 

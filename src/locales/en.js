@@ -63,4 +63,8 @@ export const en = {
   feedbackThree:`Simply wonderful! The baristas are very professional and know how to prepare delicious coffee. 
   In addition, the menu offers a variety of snack and dessert options to accompany the coffee. 
   The place is clean, modern and has a great vibe. I recommend it to everyone who enjoys good coffee!`,
+  latestNews: "Subscribe to receive the latest news",
+  newsUpdatesTipsOffers: "Don't miss our latest news, updates, tips and special offers",
+  yourEmail: "Enter your email",
+  send: "Send",
 };

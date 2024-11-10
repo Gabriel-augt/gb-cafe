@@ -63,4 +63,8 @@ export const pt_BR = {
   feedbackThree:`Simplesmente maravilhoso! Os baristas são muito profissionais e sabem preparar um café delicioso. 
   Além disso, o cardápio oferece uma variedade de opções de lanches e sobremesas para acompanhar o café. 
   O local é limpo, moderno e com uma ótima energia. Recomendo para todos que apreciam um bom café!`,
+  latestNews: "Assine para receber as últimas notícias",
+  newsUpdatesTipsOffers: "Não perca nossas últimas notícias, atualizações, dicas e ofertas especiais",
+  yourEmail: "Digite seu e-mail",
+  send: "Enviar",
 };

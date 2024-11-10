@@ -63,4 +63,8 @@ export const es = {
   feedbackThree:`¡Simplemente maravilloso! Los baristas son muy profesionales y saben preparar un delicioso café. 
   Además, la carta ofrece una gran variedad de aperitivos y postres para acompañar el café. 
   El local es limpio, moderno y tiene una gran energía. ¡Lo recomiendo a cualquiera que disfrute de una buena taza de café!`,
+  latestNews: "Suscríbete para recibir las últimas noticias",
+  newsUpdatesTipsOffers: "No te pierdas nuestras últimas noticias, actualizaciones, consejos y ofertas especiales",
+  yourEmail: "Introduce tu correo electrónico",
+  send: "Enviar",
 };
