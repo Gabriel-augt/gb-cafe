@@ -67,4 +67,10 @@ export const pt_BR = {
   newsUpdatesTipsOffers: "Não perca nossas últimas notícias, atualizações, dicas e ofertas especiais",
   yourEmail: "Digite seu e-mail",
   send: "Enviar",
+  ourSocialNetworks: "Siga nossas redes sociais",
+  contactUs: "Contate-nos",
+  conceptualProject: `Esta cafeteria é um projeto conceitual criado para fins de estudo, 
+  com o objetivo de explorar o design, marca e experiência do cliente. 
+  Não está em operação real, servindo apenas como exercício criativo e 
+  desenvolvimento de habilidades na área de design e negócios.`,
 };

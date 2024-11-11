@@ -67,4 +67,10 @@ export const es = {
   newsUpdatesTipsOffers: "No te pierdas nuestras últimas noticias, actualizaciones, consejos y ofertas especiales",
   yourEmail: "Introduce tu correo electrónico",
   send: "Enviar",
+  ourSocialNetworks: "Sigue nuestras redes sociales",
+  contactUs: "Contáctenos",
+  conceptualProject: `Este café es un proyecto conceptual creado con fines de estudio,  
+  con el objetivo de explorar el diseño, la marca y la experiencia del cliente. 
+  No está en funcionamiento real y sirve sólo como herramienta creativa y 
+  desarrollo de habilidades en el área del diseño y los negocios.`,
 };

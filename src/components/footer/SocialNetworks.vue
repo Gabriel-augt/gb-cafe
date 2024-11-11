@@ -10,7 +10,7 @@ import { Facebook, Instagram, Twitter, Youtube } from 'lucide-vue-next';
 
         <h2 class="text-3xl font-poppins max-[415px]:w-60">
 
-            Siga nossas redes sociais
+            {{ $t('ourSocialNetworks') }}
 
         </h2>
 

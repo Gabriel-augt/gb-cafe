@@ -67,4 +67,10 @@ export const eu = {
   newsUpdatesTipsOffers: "Don't miss our latest news, updates, tips and special offers",
   yourEmail: "Enter your email",
   send: "Send",
+  ourSocialNetworks: "Follow our social networks",
+  contactUs: "Contact us",
+  conceptualProject: `This coffee shop is a conceptual project created for study purposes, 
+  with the aim of exploring design, branding and customer experience. 
+  It is not in real operation, serving only as a creative exercise and 
+  development of design and business skills.`,
 };

@@ -10,10 +10,7 @@
 
         <p class="tracking-wide">
 
-            Esta cafeteria é um projeto conceitual criado para fins de estudo,
-            com o objetivo de explorar o design, marca e experiência do cliente.
-            Não está em operação real, servindo apenas como exercício criativo e
-            desenvolvimento de habilidades na área de design e negócios.
+            {{ $t('conceptualProject') }}
 
         </p>
 

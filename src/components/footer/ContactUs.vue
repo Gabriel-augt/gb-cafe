@@ -10,7 +10,7 @@ import { MapPin, PhoneCall, Mail, Globe } from 'lucide-vue-next';
 
         <h1 class="text-3xl font-poppins">
 
-            Contate-nos
+            {{ $t('contactUs') }}
 
         </h1>
 
