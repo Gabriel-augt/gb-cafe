@@ -2,7 +2,7 @@
 
     <div class="absolute z-10 flex flex-col justify-center w-max left-48 h-5/6 top-28
      text-white-25 max-[1660px]:left-28 max-[1575px]:left-8 max-[565px]:left-4
-     max-[565px]:w-80 max-[565px]:top-20">
+     max-[565px]:w-max max-[565px]:top-20 max-[375px]:left-2">
 
         <p class="font-light tracking-wider font-poppins max-[468px]:text-sm">
 
@@ -10,9 +10,9 @@
 
         </p>
 
-        <h1 class="font-clickerScript text-[364px] -mb-11 -mt-16 max-[468px]:text-[228px]
-        max-[650px]:-my-8 max-[650px]:text-[300px] max-[565px]:text-[200px]
-        max-[395px]:text-[195px]">
+        <h1 class="font-clickerScript text-[364px] -mb-11 -mt-16 max-[468px]:text-[198px]
+        max-[650px]:-my-8 max-[710px]:text-[248px] max-[565px]:text-[200px] max-[445px]:text-[168px]
+        max-[810px]:text-[316px] max-[565px]:-my-0">
 
             {{ $t('coffee') }}
 
