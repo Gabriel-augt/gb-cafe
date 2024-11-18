@@ -20,7 +20,7 @@ import { ChevronLeft } from 'lucide-vue-next';
 
                 </figure>
 
-                Voltar para o início
+                {{ $t('toHomePage') }}
 
             </span>
 

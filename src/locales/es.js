@@ -73,4 +73,13 @@ export const es = {
   con el objetivo de explorar el diseño, la marca y la experiencia del cliente. 
   No está en funcionamiento real y sirve sólo como herramienta creativa y 
   desarrollo de habilidades en el área del diseño y los negocios.`,
+  toHomePage: "Página inicial",
+  currency: "€",
+  yourCart: "Su carrito",
+  orderSummary: "Resumen del pedido",
+  products: "Productos",
+  delivery: "Entrega",
+  deliveryPrice: "1,62",
+  total: "Total",
+  finalizeOrder: "Finalizar pedido",
 };

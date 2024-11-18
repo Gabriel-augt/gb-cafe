@@ -73,4 +73,13 @@ export const en = {
   with the aim of exploring design, branding and customer experience. 
   It is not in real operation, serving only as a creative exercise and 
   development of design and business skills.`,
+  toHomePage: "Home page",
+  currency: "$",
+  yourCart: "Your cart",
+  orderSummary: "Order Summary",
+  products: "Products",
+  delivery: "Delivery",
+  deliveryPrice: "1.77",
+  total: "Total",
+  finalizeOrder: "Finalize order",
 };

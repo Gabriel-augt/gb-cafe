@@ -1,3 +1,11 @@
+<script setup>
+
+import { useCartStore } from '@/store/CartStore';
+
+const cart = useCartStore();
+
+</script>
+
 <template>
 
     <section class="flex flex-col items-center mb-8
@@ -8,7 +16,7 @@
 
             <h3 class="text-lg font-semibold pb-2">
 
-                Resumo do pedido
+                {{ $t('orderSummary') }}
 
             </h3>
 
@@ -17,11 +25,11 @@
 
                 <span class="flex justify-between border-t pt-2">
 
-                    Produtos
+                    {{ $t('products') }}
 
                     <span>
 
-                        R$12,00
+                        {{ $t('currency') }}{{ cart.localCurrency }}
 
                     </span>
 
@@ -29,11 +37,11 @@
 
                 <span class="flex justify-between border-t pt-2">
 
-                    Entrega
+                    {{ $t('delivery') }}
 
                     <span>
 
-                        R$5,00
+                        {{ $t('currency') }}{{ $t('deliveryPrice') }}
 
                     </span>
 
@@ -41,11 +49,11 @@
 
                 <span class="flex text-xl justify-between border-t pt-2">
 
-                    Total
+                    {{ $t('total') }}
 
                     <span>
 
-                        R$17,00
+                        {{ $t('currency') }}{{ cart.finalPrice }}
 
                     </span>
 
@@ -59,7 +67,7 @@
             before:rounded-full  before:bg-yellow-350 before:-z-10  before:aspect-square
             before:hover:scale-150 overflow-hidden before:hover:duration-700 font-semibold">
 
-                Finalizar pedido
+                {{ $t('finalizeOrder') }}
 
             </button>
 

@@ -16,7 +16,7 @@ import OrderSummary from './OrderSummary.vue';
 
                 <h1 class="text-2xl font-semibold tracking-wide text-black mt-16">
 
-                    Seu carrinho
+                    {{ $t('yourCart') }}
 
                 </h1>
 

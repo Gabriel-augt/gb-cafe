@@ -73,4 +73,13 @@ export const pt_BR = {
   com o objetivo de explorar o design, marca e experiência do cliente. 
   Não está em operação real, servindo apenas como exercício criativo e 
   desenvolvimento de habilidades na área de design e negócios.`,
+  toHomePage: "Página inicial",
+  currency: "R$",
+  yourCart: "Seu carrinho",
+  orderSummary: "Resumo do pedido",
+  products: "Produtos",
+  delivery: "Entrega",
+  deliveryPrice: "10,00",
+  total: "Total",
+  finalizeOrder: "Finalizar pedido",
 };
