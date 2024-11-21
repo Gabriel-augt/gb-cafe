@@ -29,6 +29,8 @@ const changeLanguage = (language) => {
 
     locale.value = language
 
+    cart.mainLanguage = language
+
     //set flag and remove current language from dropdown...
     switch (language) {
 

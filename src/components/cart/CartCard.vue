@@ -31,7 +31,7 @@ const cart = useCartStore()
 
             <span class="text-zinc-400">
 
-                {{ $t('currency') }}{{ coffee.totalValueCoffee.toFixed(2) }}
+                {{ $t('currency') }}{{ cart.formatCoffeeAmount(coffee.totalValueCoffee) }}
 
             </span>
 
