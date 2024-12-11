@@ -82,4 +82,5 @@ export const eu = {
   deliveryPrice: "1,62",
   total: "Total",
   finalizeOrder: "Finalize order",
+  emptyCart: "Empty cart!",
 };

@@ -12,7 +12,7 @@ const cart = useCartStore();
     justify-center w-screen h-56 bg-white-25">
 
         <div class="w-96 h-max border rounded-3xl p-8
-        max-[450px]:w-72">
+        max-[450px]:w-72" v-if="cart.itemInCart">
 
             <h3 class="text-lg font-semibold pb-2">
 
@@ -71,6 +71,24 @@ const cart = useCartStore();
 
             </button>
 
+        </div>
+
+        <div class="w-96 h-max border rounded-3xl p-8
+        text-center max-[450px]:w-72" v-if="!cart.itemInCart">
+    
+            <span class="flex items-center justify-center text-2xl
+            gap-2 font-semibold pb-2">
+
+                <figure>
+                    
+                    <img class="w-16" src="/emptyCart.png" :alt="$t('emptyCart')">
+                    
+                </figure>
+                
+                {{ $t('emptyCart') }}
+
+            </span>
+    
         </div>
 
     </section>

@@ -82,4 +82,5 @@ export const pt_BR = {
   deliveryPrice: "10,00",
   total: "Total",
   finalizeOrder: "Finalizar pedido",
+  emptyCart: "Carrinho vazio!",
 };

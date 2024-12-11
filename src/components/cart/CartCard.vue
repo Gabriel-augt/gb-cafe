@@ -14,9 +14,9 @@ const cart = useCartStore()
     shadow-md rounded-3xl border-t h-max w-[848px] max-[880px]:flex-col
     max-[880px]:w-96 max-[880px]:gap-8 max-[450px]:w-72">
 
-        <figure class="w-44">
+        <figure>
 
-            <img class="rounded-xl"
+            <img class="w-44 h-32 m-4 rounded-xl"
             :src="coffee.photo" :alt="coffee.name">
 
         </figure>
@@ -29,7 +29,7 @@ const cart = useCartStore()
 
             </h2>
 
-            <span class="text-zinc-400">
+            <span class="text-zinc-400 ">
 
                 {{ $t('currency') }}{{ cart.formatCoffeeAmount(coffee.totalValueCoffee) }}
 

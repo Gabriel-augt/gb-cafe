@@ -82,4 +82,5 @@ export const es = {
   deliveryPrice: "1,62",
   total: "Total",
   finalizeOrder: "Finalizar pedido",
+  emptyCart: "¡Carro vacío!",
 };
