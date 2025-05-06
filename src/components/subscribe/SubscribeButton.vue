@@ -1,6 +1,7 @@
 <template>
 
-    <div class="w-[900px] flex flex-row items-center justify-center mt-9">
+    <div data-aos="zoom-in" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom"
+    class="w-[900px] flex flex-row items-center justify-center mt-9">
 
         <form @submit.prevent="" action="">
 

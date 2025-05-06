@@ -63,7 +63,7 @@ const cart = useCartStore()
 
         </div>
 
-        <figure @click="cart.removeCoffee(index)" class="cursor-pointer">
+        <figure @click="cart.removeCoffee(coffee, index)" class="cursor-pointer">
 
             <Trash2 color="#A1A1AA" />
 

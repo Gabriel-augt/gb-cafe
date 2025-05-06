@@ -6,7 +6,7 @@
 
             <figure>
 
-                <img class="h-64" src="/gb.png" alt="Logo">
+                <img data-aos="fade-down" data-aos-duration="1500" class="h-64" src="/gb.png" alt="Logo">
 
             </figure>
 

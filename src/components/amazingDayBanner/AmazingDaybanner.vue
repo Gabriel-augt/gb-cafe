@@ -20,7 +20,8 @@
 
                 </p>
 
-                <button class="relative w-48 h-16 text-xl font-bold text-black
+                <button data-aos="flip-left" data-aos-duration="1500" data-aos-anchor-placement="center-bottom"
+                class="relative w-48 h-16 text-xl font-bold text-black
                 transition-all duration-300 ease-in-out transform shadow-lg top-8
                 bg-yellow-350 rounded-3xl font-poppins hover:scale-105 max-[580px]:w-40
                 max-[580px]:h-14 max-[970px]:top-0">
@@ -36,7 +37,8 @@
             </section>
 
 
-            <figure class="h-max">
+            <figure data-aos="zoom-in" data-aos-duration="800" data-aos-anchor-placement="center-bottom"
+            class="h-max">
 
                 <img class="w-96 mr-40 max-[1090px]:w-80 max-[970px]:mr-0" src="/cup.svg" alt="Copo de café">
 

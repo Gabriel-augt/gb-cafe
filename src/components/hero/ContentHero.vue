@@ -1,6 +1,7 @@
 <template>
 
-    <div class="absolute z-10 flex flex-col justify-center w-max left-48 h-5/6 top-28
+    <div data-aos="fade-right" data-aos-duration="900"
+    class="absolute z-10 flex flex-col justify-center w-max left-48 h-5/6 top-28
      text-white-25 max-[1660px]:left-28 max-[1575px]:left-8 max-[565px]:left-4
      max-[565px]:w-max max-[565px]:top-20 max-[375px]:left-2">
 

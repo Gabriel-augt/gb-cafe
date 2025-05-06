@@ -78,7 +78,8 @@ if (url.value.includes('carrinho')) {
 
 <template>
 
-    <header class="fixed z-50 w-screen bg-transparent" :class="marginTop">
+    <header data-aos="fade-down" data-aos-duration="900"
+    class="fixed z-50 w-screen bg-transparent" :class="marginTop">
 
         <div class="flex items-center justify-center">
 

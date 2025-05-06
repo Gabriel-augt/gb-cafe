@@ -6,7 +6,8 @@ import { Facebook, Instagram, Twitter, Youtube } from 'lucide-vue-next';
 
 <template>
 
-    <div class="flex flex-col gap-6 w-96 max-[415px]:w-60">
+    <div data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom"
+    class="flex flex-col gap-6 w-96 max-[415px]:w-60">
 
         <h2 class="text-3xl font-poppins max-[415px]:w-60">
 

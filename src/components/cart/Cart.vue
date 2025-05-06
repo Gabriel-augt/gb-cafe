@@ -1,6 +1,6 @@
 <script setup>
 
-import CartContent from './CartContent.vue'
+import CartContent from './CartContent.vue';
 
 </script>
 

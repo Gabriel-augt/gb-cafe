@@ -109,6 +109,8 @@ export const useCartStore = defineStore("cart", {
 
       itemInCart: false,
 
+      modalWarning: false,
+
       hideLangSwitcher: false,
 
       totalAmount: 0,
@@ -123,7 +125,7 @@ export const useCartStore = defineStore("cart", {
 
       this.listOfCafes.forEach((cafes) => {
 
-        if (Object.keys(cafes) == coffee) {
+        if (Object.keys(cafes) == coffee && cafes[coffee].amount == 0) {
 
           this.cafesAdded.push(cafes[coffee]);
 
@@ -189,7 +191,11 @@ export const useCartStore = defineStore("cart", {
 
     },
 
-    removeCoffee(index) {
+    removeCoffee(coffee, index) {
+
+      coffee.amount = 0;
+
+      coffee.totalValueCoffee = 0;
 
       this.cafesAdded.splice(index, 1);
 
@@ -238,7 +244,7 @@ export const useCartStore = defineStore("cart", {
       
       if (coffee.amount <= 1) {
 
-        this.removeCoffee(index);
+        this.removeCoffee(coffee, index);
 
       } else {
 

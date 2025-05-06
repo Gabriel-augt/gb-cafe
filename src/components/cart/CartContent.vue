@@ -2,6 +2,10 @@
 
 import CartCard from './CartCard.vue';
 import OrderSummary from './OrderSummary.vue';
+import ModalWarning from '../modalWarning/ModalWarning.vue';
+import { useCartStore } from '@/store/CartStore';
+
+const cart = useCartStore();
 
 </script>
 
@@ -28,6 +32,26 @@ import OrderSummary from './OrderSummary.vue';
 
         <OrderSummary />
 
+        <transition name="slide-fade">
+
+            <ModalWarning v-if="cart.modalWarning" />
+
+        </transition>
+
     </div>
 
 </template>
+
+<style scoped>
+
+/* Transition effects */
+.slide-fade-enter-active {
+  transition: all .5s ease-out;
+}
+
+.slide-fade-enter-from {
+    opacity: 0;
+    transition: all .5s ease-out
+}
+
+</style>

@@ -83,4 +83,8 @@ export const en = {
   total: "Total",
   finalizeOrder: "Finalize order",
   emptyCart: "Empty cart!",
+  warning: "Warning",
+  warningMessage: `This website is intended solely for study and demonstration purposes.
+  No content here should be considered official or used for commercial purposes.`,
+  close: "Close",
 };

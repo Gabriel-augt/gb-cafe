@@ -77,7 +77,8 @@ const changeLanguage = (language) => {
 
 <template>
 
-    <div v-if="!cart.hideLangSwitcher" class="absolute flex flex-col tracking-wider
+    <div data-aos="fade-down" data-aos-duration="900" v-if="!cart.hideLangSwitcher"
+    class="absolute flex flex-col tracking-wider
     text-white-25 w-10 right-5 top-8 font-manrope z-50 max-[530px]:top-20
     max-[530px]:right-3 max-[570px]:right-2">
 

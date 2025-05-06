@@ -83,4 +83,8 @@ export const es = {
   total: "Total",
   finalizeOrder: "Finalizar pedido",
   emptyCart: "¡Carro vacío!",
+  warning: "Aviso",
+  warningMessage: `Este sitio está destinado exclusivamente a fines de estudio y demostración.
+  Ningún contenido debe considerarse oficial ni utilizarse con fines comerciales.`,
+  close: "Cerrar",
 };

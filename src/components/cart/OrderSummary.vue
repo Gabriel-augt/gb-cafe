@@ -4,6 +4,12 @@ import { useCartStore } from '@/store/CartStore';
 
 const cart = useCartStore();
 
+const activateModal = () => {
+
+cart.modalWarning = true;
+
+}
+
 </script>
 
 <template>
@@ -61,7 +67,7 @@ const cart = useCartStore();
 
             </div>
 
-            <button class="relative w-full px-8 py-2 rounded-3xl bg-white isolation-auto
+            <button @click="activateModal" class="relative w-full px-8 py-2 rounded-3xl bg-white isolation-auto
             z-10 border-2 border-yellow-350 before:absolute before:w-full before:transition-all
             before:duration-700 before:hover:w-full before:-right-full before:hover:right-0
             before:rounded-full  before:bg-yellow-350 before:-z-10  before:aspect-square

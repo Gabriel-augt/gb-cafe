@@ -40,7 +40,8 @@ if (url.value.includes('carrinho')) {
 
 <template>
 
-    <header class="fixed z-50 w-screen bg-transparent mt-1">
+    <header data-aos="fade-down" data-aos-duration="900"
+    class="fixed z-50 w-screen bg-transparent mt-1">
 
         <nav class="flex flex-row items-center justify-between h-16 mx-48
         text-white-25 backdrop-blur-3xl bg-black/30 rounded-full px-6

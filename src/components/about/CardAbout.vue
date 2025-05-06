@@ -1,6 +1,7 @@
 <template>
 
-    <div class="z-10 flex my-16 bg-white-25 rounded-xl max-[1110px]:my-8">
+    <div data-aos="zoom-in-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom"
+    class="z-10 flex my-16 bg-white-25 rounded-xl max-[1110px]:my-8">
 
         <div class="flex items-center justify-center w-[498px] h-[298px] drop-shadow-xl
         max-[500px]:w-screen max-[500px]:px-4">
