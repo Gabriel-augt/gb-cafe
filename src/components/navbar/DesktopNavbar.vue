@@ -3,7 +3,7 @@
 import { ShoppingCart } from 'lucide-vue-next';
 import DesktopNavBarContent from './DesktopNavBarContent.vue';
 import { ref } from 'vue';
-import BackToHome from './backToHome.vue';
+import BackToHome from './BackToHome.vue';
 import { useCartStore } from '@/store/CartStore';
 
 const hideMenuContent = ref(true);

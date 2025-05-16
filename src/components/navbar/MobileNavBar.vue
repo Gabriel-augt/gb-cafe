@@ -5,7 +5,7 @@ import { ref } from 'vue';
 import MobileNavBarContent from './MobileNavBarContent.vue';
 import BurgerMenu from './BurgerMenu.vue';
 import CloseBurger from './CloseBurger.vue';
-import BackToHome from './backToHome.vue';
+import BackToHome from './BackToHome.vue';
 import { useCartStore } from '@/store/CartStore';
 
 const showMobileMenu = ref(false);
